@@ -1,0 +1,52 @@
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.exe
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.deps.json
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.runtimeconfig.json
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.runtimeconfig.dev.json
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.pdb
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.csproj.AssemblyReference.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.AssemblyInfoInputs.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.AssemblyInfo.cs
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.csproj.CoreCompileInputs.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\staticwebassets\Appointment_Scheduling_Project.StaticWebAssets.Manifest.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.RazorTargetAssemblyInfo.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.pdb
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.genruntimeconfig.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.csproj.CopyComplete
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.exe
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.deps.json
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.runtimeconfig.json
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.runtimeconfig.dev.json
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\Appointment_Scheduling_Project.pdb
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.csproj.AssemblyReference.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.AssemblyInfoInputs.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.AssemblyInfo.cs
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.csproj.CoreCompileInputs.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\staticwebassets\Appointment_Scheduling_Project.StaticWebAssets.Manifest.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.RazorTargetAssemblyInfo.cache
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.csproj.CopyComplete
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.dll
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.pdb
+C:\Users\uzair.ahmad\Downloads\Appointment_Scheduling_Project - Copy\Appointment_Scheduling_Project\obj\Debug\netcoreapp3.1\Appointment_Scheduling_Project.genruntimeconfig.cache

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            background-color: #96D4D4;
+        }
+    </style>
+</head>
+<script>
+    $(document).ready(function () {
+        $("#a").val('1')
+        $("#b").val('2')
+        $("#c").val('3')
+        document.getElementById("name").value = $("#a").val();
+        document.getElementById("Country").value = $("#a1").val();
+
+        $("input[name='phone']").keyup(function () {
+            $(this).val($(this).val().replace(/^(\d{3})(\d{3})(\d+)$/, "($1) $2-$3"));
+        });
+
+        $('.search').keypress(function (event) {
+            var key = event.keyCode || event.which;
+            if (key == 13) {
+                var searchTerm = $(this).val().toLowerCase();
+                $('#userTbl tbody tr').each(function () {
+                    var lineStr = $(this).text().toLowerCase();
+                    if (lineStr.indexOf(searchTerm) === -1) {
+                        $(this).hide();
+                    } else {
+                        $(this).show();
+                    }
+                });
+            }
+        });
+        $('#phone').keypress(function (event) {
+            var key2 = event.keyCode || event.which;
+            if (key2 == 13) {
+                var searchTerm2 = $(this).val().toLowerCase();
+                $('#userTbl tbody tr').each(function () {
+                    var lineStr2 = $(this).text().toLowerCase();
+                    if (lineStr2.indexOf(searchTerm2) === -1) {
+                        $(this).hide();
+                    } else {
+                        $(this).show();
+                    }
+                });
+            }
+    });
+});
+    $(function () {
+
+        $("#aioConceptName").change(function () {
+
+            var conceptName = $('#aioConceptName').find(":selected").val();
+            document.getElementById("name").value = conceptName;
+            // $("#a").val()=conceptName
+        });
+
+    });
+    $(function () {
+
+        $("#aioCountryName").change(function () {
+
+            var conceptName = $('#aioCountryName').find(":selected").val();
+            document.getElementById("Country").value = conceptName;
+            // $("#a").val()=conceptName
+        });
+
+    });
+
+</script>
+</head>
+
+<body>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" />
+    <label for="aioConceptName">AIO Concept Name</label>
+    <select id="aioConceptName">
+        <option id="a" value="">choose io</option>
+        <option id="b" value="">roma</option>
+        <option id="c" value="">totti</option>
+    </select>
+
+    <hr>
+    <label for="Country">Country</label>
+    <input type="text" name="Country" id="Country" />
+    <select id="aioCountryName">
+        <option id="a1" value="101">Pakistan</option>
+        <option id="b1" value="102">India</option>
+        <option id="c1" value="103">Bangladesh</option>
+    </select>
+
+    <hr>
+    <div class="form-group pull-left">
+        <input type="text" class="search form-control" id="search" placeholder="Enter FirstName">
+    </div>
+    <div class="form-group pull-right">
+        <!-- form input for example user -->
+        <input type="text" name="phone" id="phone" value="" placeholder="Phone Number" />
+    </div>
+    <table class="table table-striped" id="userTbl">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Moe</td>
+                <td>(444) 222-5555</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Doe</td>
+                <td>(444) 111-5555</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>Rest</td>
+                <td>(444) 333-5555</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

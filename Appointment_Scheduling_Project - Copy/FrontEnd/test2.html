@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="test2.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
+</head>
+
+<body>
+  <div style=" margin-left: 30%;margin-right: 30%;margin-top: 1%;">
+    <!-- Input Form -->
+    <div class="tab-content">
+      <form>
+        <div class="text-center mb-3">
+          <h3>CureLife</h3>
+          </button>
+        </div>
+        <!--Get Single Patient details  input fields-->
+        <div id="getPatient" style="display: none;">
+          <!-- patient id  input -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="PatientID">Patient ID</label>
+            <input type="text" id="PatientID" class="form-control" placeholder="Patient ID" required="" />
+          </div>
+        </div>
+        <!-- Add Patient input fields-->
+        <div id="addPatient" style="display: none;">
+          <!-- patient firstname  input field -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="addPatientFirstName">First Name</label>
+            <input type="text" id="addPatientFirstName" class="form-control" placeholder="First Name" required="" />
+          </div>
+          <!-- patient lastname input field -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="addPatientLastName">Last Name</label>
+            <input type="text" id="addPatientLastName" class="form-control" placeholder="Last Name" required="" />
+          </div>
+          <!-- patient country input field -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="addPatientCountryName">Country</label>
+            <input type="text" id="addPatientCountryName" class="form-control" placeholder="Country Name" required="" />
+          </div>
+          <!-- patient phone number input field -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="addPatientPhoneNumber">Phone Number</label>
+            <input type="text" id="addPatientPhoneNumber" class="form-control" placeholder="Phone Number" required="" />
+          </div>
+        </div>
+        <!--  Add Phone Number input field -->
+        <div id="addPhone" style="display: none;">
+          <!-- patient id input field -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="addPhonePatientID">Patient ID</label>
+            <input type="text" id="addPhonePatientID" class="form-control" placeholder="Patient ID" required="" />
+          </div>
+          <!-- phone number input field -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="addPhonePhoneNumber">New Phone Number</label>
+            <input type="text" id="addPhonePhoneNumber" class="form-control" placeholder="New Phone Number"
+              required="" />
+          </div>
+        </div>
+        <!--  Update patient record input fields-->
+        <div id="fetchPatientInput" style="display: none;">
+          <!-- patient id  input -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="fetchPatientID">Patient ID</label>
+            <input type="text" id="fetchPatientID" class="form-control" placeholder="Patient ID" required="" />
+          </div>
+        </div>
+        <!--PROVIDE patient ID to update patient input fields-->
+        <div id="updatePatient" style="display: none;">
+          <!-- patient ID input field -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="updatePatientID">Patient ID</label>
+            <input type="text" id="updatePatientID" class="form-control" placeholder="Patient ID" required=""
+              readonly />
+          </div>
+          <!--patient first name input field-->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="updatePatientFirstName">First Name</label>
+            <input type="text" id="updatePatientFirstName" class="form-control" placeholder="First Name" required="" />
+          </div>
+
+          <!-- patient last name input field-->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="updatePatientLastName">Last Name</label>
+            <input type="text" id="updatePatientLastName" class="form-control" placeholder="Last Name" required="" />
+          </div>
+          <!-- patient country input field -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="updatePatientCountryName">Country</label>
+            <input type="text" id="updatePatientCountryName" class="form-control" placeholder="Country Name"
+              required="" />
+          </div>
+
+        </div>
+        <!--  Delete patient input fields-->
+        <div id="deletePatient" style="display: none;">
+          <!-- patient patient ID input field -->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="deletePatientID">Patient ID</label>
+            <input type="text" id="deletePatientID" class="form-control" placeholder="Patient ID" required="" />
+          </div>
+
+        </div>
+        <!-- Input fields Submit buttons -->
+        <!-- Get a patient-->
+        <button type="button" id="PatientSubmit1" class="btn btn-primary btn-block mb-4">Get Patient</button>
+        <button type="button" id="PatientSubmit2" class="btn btn-primary btn-block mb-4" style="display: none;">Get
+          Patient</button>
+        <!-- Get all patients-->
+        <button type="button" id="PatientSubmit4" class="btn btn-primary btn-block mb-4">Get All
+          Patients</button>
+        <!-- Add a patient-->
+        <button type="button" id="newPatient1" class="btn btn-primary btn-block mb-4">Add Patient</button>
+        <button type="button" id="newPatient2" class="btn btn-primary btn-block mb-4" style="display: none;">Add
+          Patient</button>
+        <!-- Add a phone number-->
+        <button type="button" id="newPhoneNumber1" class="btn btn-primary btn-block mb-4">Add Phone Numer</button>
+        <button type="button" id="newPhoneNumber2" class="btn btn-primary btn-block mb-4" style="display: none;">Add
+          Phone Numer</button>
+        <!-- Update a patient-->
+        <button type="button" id="updatePatient1" class="btn btn-primary btn-block mb-4">Update Patient</button>
+        <button type="button" id="updatePatient1A" class="btn btn-primary btn-block mb-4" style="display: none;">Fetch
+          Patient</button>
+        <button type="button" id="updatePatient2" class="btn btn-primary btn-block mb-4" style="display: none;">Update
+          Patient</button>
+        <!-- Delete a patient-->
+        <button type="button" id="deletePatient1" class="btn btn-primary btn-block mb-4">Delete Patient</button>
+        <button type="button" id="deletePatient2" class="btn btn-primary btn-block mb-4" style="display: none;">Delete
+          Patient</button>
+      </form>
+    </div>
+  </div>
+  <!-- Show a patient' data in tabular form-->
+  <div id="patientDetailsID" class="container container-fluid" style="display: none;">
+    <h2>Patient</h2>
+    <table id="patientDetailTable" class="table table-bordered table-striped bg-secondary" tyle="margin-left:auto;">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>FistName</th>
+          <th>LastName</th>
+          <th>Phone Number</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+</body>
+
+</html>
